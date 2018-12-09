@@ -1,6 +1,7 @@
 # spb-exception-handler
 
 一、@ExceptionHandler(value = Exception.class)
+
 1、在Controller类中，添加有@ExceptionHandler这个注解的方法，可以处理这个Controller的异常
 
 二、添加父类
