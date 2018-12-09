@@ -5,6 +5,7 @@
 
 二、添加父类
 写父类Controller,有@ExceptionHandler这个注解，以后其他controller类从父类继承，也可以处理异常
+
 1、ModelAndView 返回视图用，入参 HttpServletRequest req ，request的请求， Exception e ，异常类
 
     @ExceptionHandler(value = Exception.class)
